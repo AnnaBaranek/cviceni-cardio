@@ -17,3 +17,16 @@ body {
 
 /* ---------------------------------------------------- */
 
+.kontejner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.horni {
+  flex: 100%;
+}
+
+
+.prvni, .druhy, .treti {
+    flex: calc(100% / 3);
+}
